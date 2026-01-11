@@ -1,0 +1,175 @@
+{
+    "target": {
+        "label": "Gang Management"
+    },
+    "textui": {
+        "text": "Gang Management"
+    },
+    "context": {
+        "management_main_title": "Gang Management",
+        "management_main_invite_title": "Invite Members",
+        "management_main_invite_desc": "Send an invitation to a player to join your gang",
+        "management_main_managemembers_title": "Manage Members",
+        "management_main_managemembers_desc": "Promote, demote, or remove gang members",
+        "management_main_managemembers_desc_count": "Promote, demote, or remove gang members (%d total)",
+
+        "management_addmembers_title": "Add Members",
+        "management_managemembers_title": "Manage Members",
+        "management_managemembers_title_count": "Manage Members (%d)",
+        "management_inventory_title": "Inventory",
+        "management_promoteplayer_title": "Promote Player",
+        "management_demoteplayer_title": "Demote Player",
+        "management_kickplayer_title": "Kick Player",
+
+        "gangadmin_ui_main_title": "Gang Administration",
+        "gangadmin_ui_manage_title": "Gangs",
+        "gangadmin_ui_manage_gang_title": "Manage Gang: %s",
+        "gangadmin_ui_rank_menu_title": "Ranks: %s",
+        "gangadmin_ui_rank_edit_title": "Edit Rank: %s",
+
+        "gangadmin_main_title": "Gang Administration",
+        "gangadmin_main_create_title": "Create New Gang",
+        "gangadmin_main_create_desc": "Establish a new gang organization",
+        "gangadmin_main_manage_title": "Manage Existing Gangs",
+        "gangadmin_main_manage_desc": "Modify or delete gangs",
+        "gangadmin_main_set_title": "Set Player's Gang",
+        "gangadmin_main_set_desc": "Assign or update a player's gang and rank",
+        "gangadmin_main_remove_title": "Remove Player from Gang",
+        "gangadmin_main_remove_desc": "Remove a player from their current gang",
+
+        "gangadmin_manage_title": "Gangs",
+        "gangadmin_manage_description": "Manage %s",
+        "gangadmin_manage_description_count": "Manage %s (%d members)",
+        "gangadmin_manage_nogangs": "No Gangs Available",
+
+        "gangadmin_gang_createrank_title": "Create New Rank",
+        "gangadmin_gang_createrank_desc": "Add a new rank (Max rank: %s)",
+        "gangadmin_gang_deleterank_title": "Delete Rank",
+        "gangadmin_gang_deleterank_desc": "Remove a rank from this gang",
+        "gangadmin_gang_updateranklabel_title": "Update Rank Label",
+        "gangadmin_gang_updateranklabel_desc": "Change the display name of a rank",
+        "gangadmin_gang_updaterankranking_title": "Update Rank Order",
+        "gangadmin_gang_updaterankranking_desc": "Change the hierarchy position of a rank",
+        "gangadmin_gang_setpasscode_title": "Set Inventory Passcode",
+        "gangadmin_gang_setpasscode_desc": "Change the passcode for gang inventory access",
+        "gangadmin_gang_deletegang_title": "Delete Gang",
+        "gangadmin_gang_deletegang_desc": "Permanently remove this gang",
+
+        "gangadmin_ranks_menu_title": "Manage Ranks - %s",
+        "gangadmin_ranks_clicktoedit_desc": "Click to edit this rank",
+        "gangadmin_ranks_manageranks_title": "Manage Ranks",
+        "gangadmin_ranks_manageranks_desc": "View, create, edit, and delete ranks",
+        "gangadmin_ranks_updatelabel_title": "Update Label",
+        "gangadmin_ranks_updatelabel_desc": "Change the display name of this rank",
+        "gangadmin_ranks_changeorder_title": "Change Rank Order",
+        "gangadmin_ranks_changeorder_desc": "Update the hierarchy position",
+        "gangadmin_ranks_deleterank_title": "Delete Rank",
+        "gangadmin_ranks_deleterank_desc": "Remove this rank from the gang",
+
+        "management_manageplayer_title": "Manage Player",
+        "management_inventory_desc": "Access your gang inventory stash"
+    },
+    "alertdialog": {
+        "gangadmin_gang_delete_header": "Confirm Deletion",
+        "gangadmin_gang_delete_content": "Are you sure you want to delete **%s**?",
+        "gangadmin_rank_delete_header": "Delete Rank",
+        "gangadmin_rank_delete_content": "Are you sure you want to delete \"%s\"?",
+        "gangadmin_rank_delete_context": "Delete rank \"%s\" from gang \"%s\"?",
+        "gangadmin_confirm_label": "Yes",
+        "gangadmin_cancel_label": "Cancel"
+    },
+    "inputdialog": {
+        "management_addmembers_title": "Add Members to %s",
+        "management_addmembers_input_label": "Player ID",
+        "management_addmembers_input_description": "Enter the player's ID to add to the gang",
+        "management_promoteplayer_title": "Promote Player",
+        "management_promoteplayer_input_label": "Rank #",
+        "management_promoteplayer_input_description": "Enter the rank number to promote the player to",
+        "management_demoteplayer_title": "Demote Player",
+        "management_demoteplayer_input_label": "Rank #",
+        "management_demoteplayer_input_description": "Enter the rank number to demote the player to",
+        "management_inventorypasscode_create_title": "Inventory Passcode", 
+        "management_inventorypasscode_input_label": "Passcode",
+
+        "gangadmin_set_title": "Set Player Gang",
+        "gangadmin_setpasscode_title": "Set Inventory Passcode",
+        "gangadmin_setpasscode_input_label": "New Passcode",
+        "gangadmin_setpasscode_input_description": "Enter a 4-digit passcode",
+        "gangadmin_remove_title": "Remove Player from Gang",
+        "gangadmin_deleterank_title": "Delete Rank",
+        "gangadmin_updateranklabel_title": "Update Rank Label",
+        "gangadmin_updaterankname_input_label": "New Name",
+        "gangadmin_updaterankname_input_description": "Enter the new rank name (internal)",
+        "gangadmin_updateranklabel_input_label": "New Label",
+        "gangadmin_updateranklabel_input_description": "Enter the new display name for this rank",
+        "gangadmin_updaterankranking_title": "Update Rank Order",
+        "gangadmin_updaterankranking_input_label": "New Ranking",
+        "gangadmin_updaterankranking_input_description": "Enter the new hierarchy position (1 = lowest)",
+        "gangadmin_pid_input_label": "Player ID",
+        "gangadmin_pid_input_description": "Enter the player's server ID",
+        "gangadmin_gang_input_label": "Gang Name",
+        "gangadmin_gang_input_description": "Input the gang name, has to be lowercase",
+        "gangadmin_rank_input_label": "Rank",
+        "gangadmin_rank_input_description": "Enter the rank number to assign"
+    },
+    "chat": {
+        "gang_invited": " %s has been set as %s",
+        "gang_removed": " %s has been removed from %s",
+        "gang_kicked": " %s has been kicked from %s"
+    },
+    "notifications": {
+        "cancelled": "The operation has been cancelled",
+        "completed": "The operation was completed successfully",
+        "no_permission": "You do not have the required permission to perform this action",
+
+        "player_not_online": "The specified player is not currently online. Action cannot be performed",
+        "player_already_in_gang": "The specified player is already a member of a gang",
+        "player_outstanding_invite": "The specified player has a pending invite. Please ask them to accept or decline it",
+        "player_invited": "The player has been successfully invited",
+        "client_invited_accepted": "You have successfully joined the gang: %s",
+        "client_invited_declined": "You have declined the pending gang invitation",
+        "client_invited": "You have been invited to join the gang: %s. Use /acceptinvite %s to join",
+        "client_noinvites": "You have no pending invitations from %s",
+
+        "gang_exists": "A gang with this name already exists",
+        "gang_not_exists": "The specified gang was not found",
+
+        "gang_rank_exists": "A gang rank with this name already exists",
+        "gang_rank_not_exists": "The specified gang rank was not found",
+        "gang_no_ranks": "This gang currently has no ranks defined, or some ranks are missing",
+
+        "invalid_gang_name": "Invalid gang name. Gang names must start with a letter and use only letters and numbers",
+        "invalid_passcode": "Invalid passcode. Passcodes must be exactly 4 digits",
+        "invalid_rank": "The rank you specified is invalid for the given gang",
+        "invalid_rank_name": "Invalid rank name. Rank names must start with a letter and use only letters and numbers",
+        "rank_label_exists": "A rank with this label already exists in the gang",
+
+        "current_gang": "You are currently a member of the gang: %s",
+        "not_in_gang": "You are not a member of any gang",
+
+        "client_invalid_passcode": "Invalid passcode. Try again",
+        "client_promoted": "You have been promoted within your gang",
+        "client_demoted": "You have been demoted within your gang",
+
+        "invalid_player_id": "Invalid player ID",
+        "no_inventory_access": "You do not have access to this gang inventory",
+        "incorrect_passcode": "Incorrect passcode",
+
+        "create_gang_failed": "Create gang failed: %s",
+        "create_gang_cancelled": "Create gang cancelled",
+        "gang_created": "Gang \"%s\" created with leader rank %s",
+
+        "create_rank_failed": "Create rank failed: %s",
+        "create_rank_cancelled": "Create rank cancelled",
+        "rank_created": "Rank \"%s\" (level %s) created for \"%s\"",
+
+        "gang_deleted": "Gang \"%s\" deleted",
+        "rank_deleted": "Rank %s deleted from \"%s\"",
+        "rank_label_updated": "Rank %s in \"%s\" renamed to \"%s\"",
+        "rank_ranking_updated": "Rank %s in \"%s\" moved to level %s",
+        "rank_order_exists": "Rank level %s already exists in \"%s\"",
+        "passcode_updated": "Passcode updated for \"%s\"",
+        "setgang_success": "Set player %s to gang \"%s\" (rank %s)",
+        "removefromgang_success": "Removed player %s from \"%s\""
+    }
+}

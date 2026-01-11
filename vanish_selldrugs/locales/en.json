@@ -1,0 +1,26 @@
+{
+	"target": {
+		"label": "Sell your drugs"
+	},
+    "errors": {
+      "no_drugs": "You don't have any drugs to sell",
+      "cooldown": "Please wait before trying to make another transaction",
+      "toofar": "You're too far from the a valid zone",
+      "not_enough_cops": "There's no cops in the city",
+      "vehicle": "You have to leave the vehicle to sell",
+      "weapon": "You can't sell drugs with a weapon out"
+    },
+    "notifications": {
+      "searching": "You're searching for clients for %s",
+      "abort": "Client has resigned from the order",
+      "not_found": "There's no nearby clients",
+      "approaching": "Your client is approaching",
+      "found": "You've found client on %s",
+      "ranked": "You've ranked up to %s! Congratulations"
+    },
+    "transactions": {
+      "sold": "You've sold %sx %s for %s$",
+      "reject": "This stuff is ass! Go find yourself another guy",
+      "client_want": "This client wants to buy (x%s) %s"
+    }
+  }

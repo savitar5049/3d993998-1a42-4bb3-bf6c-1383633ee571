@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web/build/static/css/main.b0196577.css",
+    "main.js": "/web/build/static/js/main.6ee0ebce.js",
+    "static/media/gtafont.woff": "/web/build/static/media/gtafont.cc5c0e5aedda6e496f80.woff",
+    "static/media/gtafont.woff2": "/web/build/static/media/gtafont.1265e266cd359d0371b0.woff2",
+    "index.html": "/web/build/index.html",
+    "main.b0196577.css.map": "/web/build/static/css/main.b0196577.css.map",
+    "main.6ee0ebce.js.map": "/web/build/static/js/main.6ee0ebce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0196577.css",
+    "static/js/main.6ee0ebce.js"
+  ]
+}

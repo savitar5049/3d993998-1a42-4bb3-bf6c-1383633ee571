@@ -1,0 +1,35 @@
+{
+  "target": {
+    "open_crate": "Open Supply Crate"
+  },
+  "notifications": {
+    "zone_entered": "You have entered a supply drop combat zone. Watch out for other players!",
+    "zone_left": "You have left the supply drop combat zone",
+    "crate_not_found": "This supply crate no longer exists",
+    "crate_locked": "This crate will be ready to open in %s",
+    "no_supply_signal": "You don't have a supply signal",
+    "failed_remove_item": "Failed to remove supply signal from inventory",
+    "supply_signal_used": "A cargo plane is on its way to drop supplies at your location!",
+    "crate_created": "Supply crate drop has been initiated!",
+    "gang_crate_dropped": "A %s has dropped! This is a great opportunity for your gang",
+    "cooldown_active": "You must wait %s seconds before using another supply signal",
+    "missing_item": "You don't have a supply signal",
+    "drop_failed": "Failed to create crate drop"
+  },
+  "chat": {
+    "title": "[Supply Drop]",
+    "crate_looted": "The supply crate has been looted and removed.",
+    "crate_expired": "The supply crate expired and was removed.",
+    "not_enough_players": "Automatic drops are paused — not enough players online.",
+    "crate_dropped": "Supply plane inbound — %s crate marked on your map."
+  },
+  "labels": {
+    "supply_drop": "Supply Drop",
+    "crate_at_location": "%s Supply Drop",
+    "crate_stash": "Supply Crate"
+  },
+  "commands": {
+    "createdrop": "Create a supply crate drop at a random location",
+    "createdrophere": "Create a supply crate drop at your current location"
+  }
+}
