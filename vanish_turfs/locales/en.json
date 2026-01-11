@@ -1,0 +1,12 @@
+{
+    "chat": {
+        "title": "[Turf Wars]",
+        "start": "The turf ^3%s^0 is now being ^1captured^0. It will be over in ^1 %s second(s)^0.",
+        "tie": "The turf ^3%s^0 has ended in a ^3tie^0! No winners this time...",
+        "end" : "The turf ^3%s^0 was captured by ^1%s^0! (Rewards: %s.)"
+    },
+    "textui": {
+        "interact": "Press [E] to start the turf",
+        "active": "The zone %s is under capture! Remaining Time: %ss"
+    }
+}
