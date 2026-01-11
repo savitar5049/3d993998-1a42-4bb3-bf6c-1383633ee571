@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html style="display: none">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Inter:wght@500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="interface">
+      <div class="passport">
+        <div class="passport__front-cover">
+          <div class="passport__front-cover-face">
+            <div class="passport__front-cover-content">
+              <div class="passport__cover-text">
+                <div class="passport__title">LOS SANTOS</div>
+                <div class="passport__lead">REISEPASS</div>
+              </div>
+              <div class="passport__instructions">
+                Drücke auf den Reisepass um deine Einreise zu Beginnen
+                <div class="passport__cover-pointer-cursor"></div>
+              </div>
+              <div class="passport__cover-biometric-icon"></div>
+            </div>
+          </div>
+          <div class="passport__front-cover-face passport__front-cover-backface passport__shadow">
+            <div class="passport__secondary-page">
+              <div class="passport__guide">
+                Bitte fülle <b>alle</b> Informationen mit <b>Richtigen Informationen aus</b>.
+                <br>
+                Kriterien:
+                <ul class="passport__list">
+              <li>Namen - Nur Buchstaben (A-Z), maximale Länge von 20 Zeichen</li>
+              <li>Geburtsdatum - Gültiges Datum zwischen den Jahren 1900 und 2010</li>
+              <li>Geschlecht - M oder W</li>
+              <li>Größe - Zentimeter, eine Zahl zwischen 140 und 200</li>
+                </ul>
+              </div>
+              <button class="passport__submit" type="submit" form="form">Einreisen</button>
+            </div>
+          </div>
+        </div>
+        <div class="passport__back-cover passport__shadow">
+          <div class="passport__data-page">
+            <div class="passport__header">
+              <div class="passport__header-text">INTERNATIONAL PASSPORT</div>
+              <div class="passport__header-biometric-icon"></div>
+            </div>
+            <form class="passport__body" id="form">
+              <div class="passport__info passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Typ</div>
+                  <div class="passport__field">P</div>
+                </div>
+                <div class="passport__field-group passport__field-group--border-left">
+                  <div class="passport__label">Ländercode</div>
+                  <div class="passport__field">US1534</div>
+                </div>
+                <div class="passport__field-group passport__field-group--border-left">
+                  <div class="passport__label">Reisepass nu.</div>
+                  <div class="passport__field" id="passport-number">00000000</div>
+                </div>
+              </div>
+              <div class="passport__picture passport__picture--male"></div>
+              <div class="passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Vorname</div>
+                  <input class="passport__field" id="surname" type="text" placeholder="Vorname">
+                </div>
+              </div>
+              <div class="passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Nachname</div>
+                  <input class="passport__field" id="name" type="text" placeholder="Nachname">
+                </div>
+              </div>
+              <div class="passport__characteristics passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Geburtsdatum</div>
+                  <input class="passport__field" id="birthdate" type="text" placeholder="Jahr/Monat/Tag">
+                </div>
+                <div class="passport__field-group passport__field-group--border-left">
+                  <div class="passport__label">Geschlecht</div>
+                  <div class="passport__custom-select">
+                    <select class="passport__field passport__field--select" id="sex" name="sex">
+                      <option value="m">Männlich</option>
+                      <option value="f">Weiblich</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="passport__field-group passport__field-group--border-left">
+                  <div class="passport__label">Größe (in Cm)</div>
+                  <input class="passport__field" id="height" type="text" placeholder="Größe">
+                </div>
+              </div>
+              <div class="passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Unterschrift</div>
+                  <div class="passport__field passport__field--signature" id="signature"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/listener.js"></script>
+    <script src="js/interaction.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
